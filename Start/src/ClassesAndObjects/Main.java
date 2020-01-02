@@ -6,8 +6,27 @@ public class Main {
         // Ball ball = new Ball("blue", "justBall", 0, 12);
         Ball ball = new Ball();
 
+        Baseball baseball = new Baseball();
+        baseball.color = "yellow";
+        baseball.capacity = 23;
+        baseball.name = "Baseball";
+        baseball.shape = "round";
+        baseball.size = 2;
 
-        Basketball basketball = new Basketball();
+
+        baseball.bounce();
+
+
+
+        System.out.println(baseball.getCapacity());
+        System.out.println(baseball.getColor());
+        System.out.println(baseball.getName());
+        System.out.println(baseball.shape);
+        System.out.println(baseball.size);
+
+
+
+        /* Basketball basketball = new Basketball();
 
         basketball.color = "Blue";
         basketball.name = "Basketball";
@@ -19,7 +38,7 @@ public class Main {
         System.out.println(basketball.isNBA());
         System.out.println(basketball.getColor());
         System.out.println(basketball.getCapacity());
-        basketball.bounce();
+        basketball.bounce();*/
 
 
 
