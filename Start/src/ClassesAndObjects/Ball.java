@@ -7,7 +7,7 @@ public class Ball {
     private int bounceRate, capacity;
 
 
-    public Ball(){
+    public Ball() {
 
     }
 
@@ -18,15 +18,46 @@ public class Ball {
         this.capacity = capacity;
     }
 
+    public String getColor() {
+        return color;
+    }
+
+    public void setColor(String color) {
+        this.color = color;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public int getBounceRate() {
+        return bounceRate;
+    }
+
+    public void setBounceRate(int bounceRate) {
+        this.bounceRate = bounceRate;
+    }
+
+    public int getCapacity() {
+        return capacity;
+    }
+
+    public void setCapacity(int capacity) {
+        this.capacity = capacity;
+    }
 
     //Behaviors
-    public void showColor(){
+    public void showColor() {
         System.out.println(color);
     }
 
-    public void showName(){
+    /*public void showName() {
         System.out.println(name);
-    }
+    }*/
 
 
     public void bounce() {
