@@ -1,5 +1,5 @@
 package ClassesAndObjects;
 
 
-public class Basketball {
+public class Basketball extends Ball{
 }

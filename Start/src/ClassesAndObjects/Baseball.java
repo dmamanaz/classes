@@ -1,4 +1,4 @@
 package ClassesAndObjects;
 
-public class Baseball {
+public class Baseball extends Ball{
 }
