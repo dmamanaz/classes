@@ -3,8 +3,8 @@ package ClassesAndObjects;
 public class Ball {
 
     //Properties of the ball
-    private String color, name;
-    private int bounceRate, capacity;
+    public String color, name;
+    public int bounceRate, capacity;
 
 
     public Ball() {
