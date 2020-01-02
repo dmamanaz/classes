@@ -12,13 +12,17 @@ public class Main {
         basketball.color = "Blue";
         basketball.name = "Basketball";
         basketball.isNBA = true;
+        basketball.capacity = 23;
 
         //basketball.isNBA();
-        basketball.bounce();
-        basketball.getColor();
 
         System.out.println(basketball.isNBA());
         System.out.println(basketball.getColor());
+        System.out.println(basketball.getCapacity());
+        basketball.bounce();
+
+
+
 
         /*ball.setName("Hello");
         ball.setColor("yellow");
